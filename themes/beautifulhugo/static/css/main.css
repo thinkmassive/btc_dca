@@ -10,6 +10,12 @@ body {
   position: relative;
   background: #303030;
   background-image: url("/img/BTC_DCA_dark_1920.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.well {
+  background: transparent;
 }
 p {
   line-height: 1.5;
@@ -624,10 +630,12 @@ table tr {
   background-color: #ffffff;
   margin: 0;
   padding: 0;
-  color: #000000;
+  color: #f0f0f0;
+  background-color: #303030;
 }
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  color: #101010;
+  background-color: #a0a0a0;
 }
 table tr th {
   font-weight: bold;
@@ -635,6 +643,8 @@ table tr th {
   text-align: center;
   margin: 0;
   padding: 6px 13px;
+  color: #a0a0a0;
+  background-color: #000000;
 }
 table tr td {
   border: 1px solid #cccccc;
