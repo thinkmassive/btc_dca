@@ -1,6 +1,7 @@
 ---
-title: Fold
+title: BTC_DCA - Fold
 date: 2021-02-14
+subtitle: Fold
 ---
 
 Visit [foldapp.com](https://use.foldapp.com/r/Ul3zJuaI) (get 5000 sats when you sign up from this affiliate link)

@@ -1,6 +1,7 @@
 ---
-title: Square Cash App
+title: BTC_DCA - Square (Cash App)
 date: 2021-02-14
+subtitle: Square (Cash App)
 ---
 
 Visit [cash.app/bitcoin](https://cash.app/bitcoin)
