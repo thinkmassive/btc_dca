@@ -1,8 +1,8 @@
-baseurl = "https://pages.gitlab.io/hugo/"
+baseurl = "https://btcdca.info"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
-title = "Beautiful Hugo"
+title = "BTC_DCA"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
@@ -10,18 +10,17 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+enableGitInfo = true
 
 [Params]
-  subtitle = "Hugo Blog Template for GitLab Pages"
-  logo = "img/avatar-icon.png"
+  subtitle = "Weekly Dollar Cost Averaging into Bitcoin"
+  logo = "img/BTC_DCA_square_250.png"
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
+  dateFormat = "2006 Jan 02"
   rss = true
   comments = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  commit = "https://gitlab.com/thinkmassive/btc_dca/tree/"
+
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
@@ -34,61 +33,53 @@ pygmentCodeFences = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Some Person"
-  email = "youremail@domain.com"
-  facebook = "username"
-  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  gitlab = "username"
-  github = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  keybase = "username"
-
+  name = "Alex Miller"
+  email = "alex@thinkmassive.org"
+  gitlab = "thinkmassive/btc_dca"
+  twitter = "thinkmassive"
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
+    name = "#StackSats Saturday"
+    url = "/"
     weight = 1
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
+    url = "/about"
     weight = 3
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
+    identifier = "exchanges"
+    name = "Exchanges"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
+    parent = "exchanges"
+    name = "Swan"
+    url = "exchange/swan"
     weight = 1
 
 [[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
+    parent = "exchanges"
+    name = "Casa"
+    url = "exchange/casa"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
+    parent = "exchanges"
+    name = "Fold"
+    url = "exchange/fold"
     weight = 3
 
 [[menu.main]]
-    name = "Tags"
-    url = "tags"
+    parent = "exchanges"
+    name = "Square"
+    url = "exchange/square"
     weight = 3
+
+[[menu.main]]
+    parent = "exchanges"
+    name = "River"
+    url = "exchange/river"
+    weight = 3
+
