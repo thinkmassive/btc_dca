@@ -14,8 +14,9 @@ comments: false
 ## Attribution
 
 Thank you to the following artists from <a href="https://pixabay.com">Pixabay</a>:
-- [WorldSpectrum](https://pixabay.com/users/worldspectrum-7691421)  (background & account icons)
-- [WikimediaImages](https://pixabay.com/users/wikimediaimages-1185597) (Bitcoin logo)
+
+  - [WorldSpectrum](https://pixabay.com/users/worldspectrum-7691421)  (background & account icons)
+  - [WikimediaImages](https://pixabay.com/users/wikimediaimages-1185597) (Bitcoin logo)
 
 ---
 
