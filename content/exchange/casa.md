@@ -4,13 +4,16 @@ date: 2021-02-14
 ---
 
 Visit [keys.casa](https://keys.casa)
-#### Advantages
+
+### Advantages
   - Instant purchase to self-custody
   - Mobile app (Buy BTC integrated w/personal key manager)
   - Low minimum limit ($20)
-#### Shortcomings
+
+### Shortcomings
   - High miner fee (mandatory)
   - ACH available in only 43 states ([ref](https://support.keys.casa/hc/en-us/articles/360047119631-Supported-Regions-for-Buying-Bitcoin))
-#### Conclusion
+
+### Conclusion
   - Best choice for a fully integrated self-custody solution
   - Very good rates if ACH is available in your state
