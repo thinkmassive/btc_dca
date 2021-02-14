@@ -13,7 +13,7 @@ pygmentCodeFences = true
 enableGitInfo = true
 
 [Params]
-  subtitle = "Weekly Dollar Cost Averaging into Bitcoin"
+  subtitle = "Dollar Cost Average into Bitcoin"
   logo = "img/BTC_DCA_square_250.png"
   favicon = "img/favicon.ico"
   dateFormat = "2006 Jan 02"
