@@ -42,18 +42,12 @@
       </div>
     {{end}}
     <div class="intro-header no-img">
-      {{ $subtitle := $.Scratch.Get "subtitle" }}
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="{{ .Type }}-heading">
-              <h1>{{ with $.Scratch.Get "title" }}{{.}}{{ else }}<br/>{{ end }}</h1>
-                {{ if $subtitle }}
-                  {{ if ne .Type "page" }}
-                    <hr class="small">
-                    <span class="{{ .Type }}-subheading">{{ $subtitle }}</span>
-                  {{ end }}
-                {{ end }}
+              <!--h1>{{ with $.Scratch.Get "title" }}{{.}}{{ else }}<br/>{{ end }}</h1-->
+              <h1>{{ with $.Scratch.Get "subtitle" }}{{.}}{{ else }}<br/>{{ end }}</h1>
                 {{ if eq .Type "post" }}
                   {{ partial "post_meta.html" . }}
                 {{ end }}
