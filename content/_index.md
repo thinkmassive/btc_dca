@@ -1,9 +1,11 @@
-## Front Page Content
+Last updated: 2021 Feb 13
 
-This website is powered by [GitLab Pages](https://about.gitlab.com/features/pages/)
-/ [Hugo](https://gohugo.io) and can be built in under 1 minute.
-Literally. It uses the `beautifulhugo` theme which supports content on your front page.
-Edit `/content/_index.md` to change what appears here. Delete `/content/_index.md`
-if you don't want any content here.
+{{< csv-table >}}
+Provider,USD/BTC,Fee $,Subtotal $,Sats,Custodial sats/$,Transfer fee sats,Transfer fee $,Non-custodial sats/$
+Swan,46992.48,$0.99,$100.99,212800,"2,107",0,$0.00,"2,107"
+Casa ACH,?,$?,$?,?,0,?,$?,0
+Casa debit,48675.14,$3.20,$103.20,205444,"1,991",0,$17.15,"1,707"
+Square,46999.13,$2.27,$100.00,207940,"2,079",0,$0.00,"2,079"
+River,47217.61,$2.99,$100.00,205453,"2,055",11139,$0.00,"1,943"
+{{< /csv-table >}}
 
-Head over to the [GitLab project](https://gitlab.com/pages/hugo) to get started.
