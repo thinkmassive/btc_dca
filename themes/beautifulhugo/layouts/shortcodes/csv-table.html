@@ -1,5 +1,6 @@
 {{ $rows := .Inner | transform.Unmarshal }}
 
+<div style="overflow-x:auto">
 <table>
   {{ range first 1 $rows }}
     <tr>
@@ -12,3 +13,4 @@
     </tr>
   {{ end }}
 </table>
+</div>
