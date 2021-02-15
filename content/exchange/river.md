@@ -6,15 +6,15 @@ subtitle: River
 
 Visit [river.com](https://river.com)
 
-### Advantages
+### Advantages of Using River Financial
   - Hardware wallet integration
   - Mobile app
   - Ability to sell BTC for USD
 
-### Shortcomings
+### Shortcomings of Using River Financial
   - High minimum limit ($100)
   - No auto withdrawal
   - Available in only 31 states ([ref](https://river.com/support/knowledge-base/articles/account-eligibility-criteria-and-requirements))
 
-### Conclusion
+### Conclusion about River Financial
   - Very polished interface, promising roadmap
